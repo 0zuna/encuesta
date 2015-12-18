@@ -4,13 +4,189 @@
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
     </head>
 
     <body>
+ 
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-content black-text">
+              <span class="card-title purple-text lighten-1"><strong> Encuesta Cambios climaticos la sabinilla Municipio de la manzanilla de la paz jalisco</strong></span>
+               <form method="post" action="respuesta.php">
+                  <div class="divider"></div>
+                  <p class="center pink-text">I percepción y conocimiento del cambio climático</p>
+                  <div class="section">
+                    <p>1-alguna vez ha escuchado sobre el cambio climático?</p>
+                      <input name="p1" type="radio" id="test1" value="1" required/>
+                      <label for="test1">si</label>
+                      <input name="p1" type="radio" id="test2" value="2" required/>
+                      <label for="test2">no</label>
+                  </div>
+
+
+                  <div class="divider"></div>
+                  <div class="section">
+                    <p>2-cómo conoce del tema?</p>
+                      <input name="p2" type="radio" id="test3" value="1" required/>
+                      <label for="test3">TV</label>
+                      <input name="p2" type="radio" id="test4" value="2" required/>
+                      <label for="test4">radio</label>
+                      <input name="p2" type="radio" id="test5" value="3" required/>
+                      <label for="test5">familia</label>
+                      <input name="p2" type="radio" id="test6" value="4" required/>
+                      <label for="test6">vecinos y amigos</label>
+                      <input name="p2" type="radio" id="test7" value="5" required/>
+                      <label for="test7">otros</label>
+                  </div>
+
+                  <div class="divider"></div>
+                  <div class="section">
+                    <p>3-que es para usted el cambio climatico?</p>
+                      <input name="p3" type="radio" id="test8" value="1" required/>
+                      <label for="test8">Conoce el tema</label>
+                      <br />
+                      <input name="p3" type="radio" id="test9" value="2" required/>
+                      <label for="test9">No conoce del todo sobre el cambio climatico</label>
+                      <input name="p3" type="radio" id="test10" value="3" required/>
+                      <label for="test10">No sabe que es el cambio climatico</label>
+                      <br />
+                      <input name="p3" type="radio" id="test11" value="4" required/>
+                      <label for="test11">No sabe ni le interesa saber acerca del tema</label>
+                  </div>
+
+                  <div class="divider"></div>
+                  <div class="section">
+                    <p>4-Cuales son las causas del cambio climatico?</p>
+                      <input name="p4" type="radio" id="test12" value="1" required/>
+                      <label for="test12">Calentamiento global, quema de combustible, quemas agrícolas, erosiones del suelo, tala de bosques</label>
+                      <input name="p4" type="radio" id="test13" value="2" required/>
+                      <label for="test13">Deforestación, aplicación de químicos, industrias contaminantes y uso indiscriminado de malas políticas y economías </label>
+                      <input name="p4" type="radio" id="test14" value="3" required/>
+                      <label for="test14">Disminución de cosechas </label>
+                      <br />
+                      <input name="p4" type="radio" id="test15" value="4" required/>
+                      <label for="test15">Gases del efecto invernadero</label>
+                      <br />
+                      <input name="p4" type="radio" id="test16" value="5" required/>
+                      <label for="test16">Humanos</label>
+                  </div>
+                  <div class="divider"></div>
+                  <p>5-Indique si las siguientes faces son afirmativas o negativas</p>
+                   <table class="highlight responsive-table">
+                      <thead>
+                        <tr>
+                            <th data-field="pregunta">?</th>
+                            <th data-field="si">SI</th>
+                            <th data-field="no">NO</th>
+                            <th data-field="nosabe">NO SABE</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>Hablar del clima es lo mismo que hablar del tiempo</td>
+                          <td><input name="p5" type="radio" id="test17" value="1" required/><label for="test17"></label></td>
+                          <td><input name="p5" type="radio" id="test18" value="2" required/><label for="test18"></label></td>
+                          <td><input name="p5" type="radio" id="test19" value="3" required/><label for="test19"></label></td>
+                        </tr>
+                        <tr>
+                          <td>El clima del planeta es el mismo desde que usted recuerda</td>
+                          <td><input name="p6" type="radio" id="test20" value="1" required/><label for="test20"></label></td>
+                          <td><input name="p6" type="radio" id="test21" value="2" required/><label for="test21"></label></td>
+                          <td><input name="p6" type="radio" id="test22" value="3" required/><label for="test22"></label></td>
+                        </tr>
+                        <tr>
+                          <td>El cambio climatico ocurre por causas naturales</td>
+                          <td><input name="p7" type="radio" id="test23" value="1" required/><label for="test23"></label></td>
+                          <td><input name="p7" type="radio" id="test24" value="2" required/><label for="test24"></label></td>
+                          <td><input name="p7" type="radio" id="test26" value="3" required/><label for="test26"></label></td>
+                        </tr>
+                        <tr>
+                          <td>El cambio climatico ocurre por causas divinas</td>
+                          <td><input name="p8" type="radio" id="test27" value="1" required/><label for="test27"></label></td>
+                          <td><input name="p8" type="radio" id="test28" value="2" required/><label for="test28"></label></td>
+                          <td><input name="p8" type="radio" id="test29" value="3" required/><label for="test29"></label></td>
+                        </tr>
+                        <tr>
+                          <td>Los seres humanos son responsables del cambio climtico</td>
+                          <td><input name="p9" type="radio" id="test31" value="1" required/><label for="test31"></label></td>
+                          <td><input name="p9" type="radio" id="test32" value="2" required/><label for="test32"></label></td>
+                          <td><input name="p9" type="radio" id="test33" value="3" required/><label for="test33"></label></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="divider"></div>
+                      <div class="section">
+                        <p>6-Algunos de los cientificos piensan que el cambio climatico ya esta ocurriendo, y otros cientificos creen que no.</p>
+                        <p>considera usted que?</p>
+                          <input name="p10" type="radio" id="test34" value="1" required/><label for="test34">Si esta ocurriendo</label>
+                          <input name="p10" type="radio" id="test35" value="2" required/><label for="test35">No esta ocurriendo</label>
+                          <input name="p10" type="radio" id="test36" value="3" required/><label for="test36">No sabe</label>
+                      </div>
+
+
+                    <div class="divider"></div>
+                      <div class="section">
+                        <p>7-A partir de su experiencia, en los ultimos 10 a 15 años</p>
+                        <p>Ud. nota que la lluvia aumentó?</p>
+                          <input name="p11" type="radio" id="test37" value="1" required/><label for="test37">Nada</label>
+                          <input name="p11" type="radio" id="test38" value="2" required/><label for="test38">Poco</label>
+                          <input name="p11" type="radio" id="test39" value="3" required/><label for="test39">Regular</label>
+                          <input name="p11" type="radio" id="test40" value="4" required/><label for="test40">Mucho</label>
+                      </div>
+
+                    <div class="divider"></div>
+                      <div class="section">
+                        <p>8-A partir de su experiencia, en los ultimos 10 a 15 años</p>
+                        <p>Ud. nota que la lluvia disminuyó?</p>
+                          <input name="p12" type="radio" id="test41" value="1" required/><label for="test41">Nada</label>
+                          <input name="p12" type="radio" id="test42" value="2" required/><label for="test42">Poco</label>
+                          <input name="p12" type="radio" id="test43" value="3" required/><label for="test43">Regular</label>
+                          <input name="p12" type="radio" id="test44" value="4" required/><label for="test44">Mucho</label>
+                      </div>
+
+                    <div class="divider"></div>
+                      <div class="section">
+                        <p>9-A partir de su experiencia, en los ultimos 10 a 15 años</p>
+                        <p>Ud. nota que la temperatura aumentó?</p>
+                          <input name="p13" type="radio" id="test45" value="1" required/><label for="test45">Nada</label>
+                          <input name="p13" type="radio" id="test46" value="2" required/><label for="test46">Poco</label>
+                          <input name="p13" type="radio" id="test47" value="3" required/><label for="test47">Regular</label>
+                          <input name="p13" type="radio" id="test48" value="4" required/><label for="test48">Mucho</label>
+                      </div>
+                    <div class="divider"></div>
+                      <div class="section">
+                        <p>10-A partir de su experiencia, en los ultimos 10 a 15 años</p>
+                        <p>Ud. nota que la temperatura disminuyó?</p>
+                          <input name="p14" type="radio" id="test49" value="1" required/><label for="test49">Nada</label>
+                          <input name="p14" type="radio" id="test50" value="2" required/><label for="test50">Poco</label>
+                          <input name="p14" type="radio" id="test51" value="3" required/><label for="test51">Regular</label>
+                          <input name="p14" type="radio" id="test52" value="4" required/><label for="test52">Mucho</label>
+                      </div>
+                    <div class="divider"></div>
+                      <div class="section">
+                        <p>11-Usted considera el cambio climático como un fenómeno:</p>
+                          <input name="p15" type="radio" id="test53" value="1" required/><label for="test53">Benéfico</label>
+                          <input name="p15" type="radio" id="test54" value="2" required/><label for="test54">Dañino</label>
+                          <input name="p15" type="radio" id="test55" value="3" required/><label for="test55">Benéfico y Dañino</label>
+                          <input name="p15" type="radio" id="test56" value="4" required/><label for="test56">Normal</label>
+                      </div>
+                    <div class="row center">
+                  <button class="btn waves-effect purple lighten-1 waves-light hoverable" type="submit">enviar
+                   <i class="material-icons right">send</i>
+                  </button>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>

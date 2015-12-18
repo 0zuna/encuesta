@@ -6684,8 +6684,8 @@ textarea {
 
 [type="radio"]:checked + label:after {
   border-radius: 50%;
-  border: 2px solid #26a69a;
-  background-color: #26a69a;
+  border: 2px solid #f50057;
+  background-color: #ff80ab;
   z-index: 0;
   -webkit-transform: scale(1.02);
   -moz-transform: scale(1.02);

@@ -2,7 +2,7 @@
 $sakura = fopen("respuestas.txt", "a+");
 fputs($sakura, "\n");
 fputs($sakura, implode(",",$_POST));
-echo implode(",",$_POST);
+//echo implode(",",$_POST);
 fclose($sakura);
 
 echo "<script language=\"javascript\">

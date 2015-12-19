@@ -2812,6 +2812,42 @@ $(document).ready(function(){
     });
 
     $(document).on('mousemove touchmove', range_wrapper, function(e) {
+    	if (document.getElementById('test190').value==0){
+    				document.getElementById('verito').innerHTML ="15 dias";}
+    	else if (document.getElementById('test190').value==1){	
+    				document.getElementById('verito').innerHTML ="1 mes";}
+    	else if (document.getElementById('test190').value==2){	
+    				document.getElementById('verito').innerHTML ="2 meses";}
+    	else if (document.getElementById('test190').value==3){				
+    				document.getElementById('verito').innerHTML ="3 meses";}
+    	else if (document.getElementById('test190').value==4){			
+    				document.getElementById('verito').innerHTML ="4 meses";}
+    	else if (document.getElementById('test190').value==5){			
+    				document.getElementById('verito').innerHTML ="5 meses";}
+    	else if (document.getElementById('test190').value==6){			
+    				document.getElementById('verito').innerHTML ="6 meses";}
+    	else if (document.getElementById('test190').value==7){			
+    				document.getElementById('verito').innerHTML ="7 meses";}
+    	else if (document.getElementById('test190').value==8){			
+    				document.getElementById('verito').innerHTML ="8 meses";}
+    	else if (document.getElementById('test190').value==9){			
+    				document.getElementById('verito').innerHTML ="9 meses";}
+    	else if (document.getElementById('test190').value==10){			
+    				document.getElementById('verito').innerHTML ="10 meses";}
+    	else if (document.getElementById('test190').value==11){			
+    				document.getElementById('verito').innerHTML ="11 meses";}
+    	else if (document.getElementById('test190').value==12){			
+    				document.getElementById('verito').innerHTML ="1 año";}
+    	else if (document.getElementById('test190').value==13){			
+    				document.getElementById('verito').innerHTML ="No dependo de compras externas";}
+    	else if(document.getElementById('test190').value==14){			
+    				document.getElementById('verito').innerHTML ="Nada";}
+    				
+
+
+
+
+
       var thumb = $(this).children('.thumb');
       var left;
       if (range_mousedown) {
@@ -2834,6 +2870,8 @@ $(document).ready(function(){
         }
         thumb.addClass('active').css('left', left);
         thumb.find('.value').html(thumb.siblings(range_type).val());
+        
+
       }
     });
 

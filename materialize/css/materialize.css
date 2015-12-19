@@ -7089,7 +7089,7 @@ input[type=range] + .thumb {
   height: 0;
   width: 0;
   border-radius: 50%;
-  background-color: #26a69a;
+  background-color: #f50057;
   top: 10px;
   margin-left: -6px;
   -webkit-transform-origin: 50% 50%;
@@ -7106,7 +7106,7 @@ input[type=range] + .thumb {
     display: block;
     width: 30px;
     text-align: center;
-    color: #26a69a;
+    color: #f50057;
     font-size: 0;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -7114,7 +7114,8 @@ input[type=range] + .thumb {
     -o-transform: rotate(45deg);
     transform: rotate(45deg); }
   input[type=range] + .thumb.active {
-    border-radius: 50% 50% 50% 0; }
+    border-radius: 50% 50% 50% 0; 
+    }
     input[type=range] + .thumb.active .value {
       color: #fff;
       margin-left: -1px;
@@ -7138,7 +7139,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background-color: #26a69a;
+  background-color: #f50057;
   transform-origin: 50% 50%;
   margin: -5px 0 0 0;
   -webkit-transition: 0.3s;
@@ -7165,7 +7166,7 @@ input[type=range]::-moz-range-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #26a69a;
+  background: #f50057;
   margin-top: -5px; }
 
 /*hide the outline behind the border*/

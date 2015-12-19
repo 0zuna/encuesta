@@ -7,7 +7,7 @@ fclose($sakura);
 
 echo "<script language=\"javascript\">
 alert(\"enviada correctamente\");
-window.location=\"encuesta.html\"
+window.location=\"/\"
 
 </script>;";
 

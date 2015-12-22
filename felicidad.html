@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="materialize/style.css">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
+      <title>Oppa-Ozuna</title>
+    </head>
+
+    <body>
+      <div class="row center">
+
+          <span class="flow-text white-text"><strong>Encuesta Qué tan Felices Somos</strong></span>
+        
+      </div>
+ 
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card hoverable">
+            <div class="card-content black-text">
+              <!--span class="card-title purple-text lighten-1"><strong> Encuesta Cambios climaticos la sabinilla Municipio de la manzanilla de la paz jalisco</strong></span-->
+               <form method="post" action="r_felicidad.php">
+                  <p>Valora cada afirmacion</p>
+                   <table class="highlight responsive-table">
+                      <thead>
+                        <tr>
+                            <th data-field="afirmacion">Afirmacion</th>
+                            <th data-field="nunca">Nunca</th>
+                            <th data-field="aveces">A Veces</th>
+                            <th data-field="siempre">Siempre</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>1-A menudo me siento felíz y satisfecho sin ningún motivo en particular</td>
+                          <td><input name="p1" type="radio" id="test1" value="1" required/><label for="test1"></label></td>
+                          <td><input name="p1" type="radio" id="test2" value="2" required/><label for="test2"></label></td>
+                          <td><input name="p1" type="radio" id="test3" value="3" required/><label for="test3"></label></td>
+                        </tr>
+                        
+
+                      </tbody>
+                    </table>
+                    
+
+                    <div class="row center">
+                  <button class="btn waves-effect purple lighten-1 waves-light hoverable" type="submit">enviar
+                   <i class="material-icons right">send</i>
+                  </button>
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.js"></script>
+    </body>
+  </html>

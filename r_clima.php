@@ -1,5 +1,5 @@
 <?php
-$sakura = fopen("r_clima.txt", "a+");
+$sakura = fopen("r_clima", "a+");
 fputs($sakura, "\n");
 fputs($sakura, implode(",",$_POST));
 //echo implode(",",$_POST);

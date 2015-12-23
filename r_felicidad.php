@@ -1,5 +1,5 @@
 <?php
-$sakura = fopen("r_felicidad.txt", "a+");
+$sakura = fopen("r_felicidad", "a+");
 fputs($sakura, "\n");
 fputs($sakura, implode(",",$_POST));
 //echo implode(",",$_POST);

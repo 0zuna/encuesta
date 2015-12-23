@@ -3,7 +3,7 @@
     <head>
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="materialize/style.css">
+      <link rel="stylesheet" type="text/css" href="materialize/style2.css">
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta charset="utf-8">
@@ -13,7 +13,7 @@
     <body>
       <div class="row center">
 
-          <span class="flow-text white-text"><strong>Encuesta Qué tan Felices Somos</strong></span>
+          <span class="flow-text white-text"><strong>Comunidades sustentables en adaptación al cambio climático</strong></span>
         
       </div>
  
@@ -23,11 +23,17 @@
             <div class="card-content black-text">
               <!--span class="card-title purple-text lighten-1"><strong> Encuesta Cambios climaticos la sabinilla Municipio de la manzanilla de la paz jalisco</strong></span-->
                <form method="post" action="r_felicidad.php">
-                  <p>Valora cada afirmacion</p>
+                <h5 class="pink-text"><strong>Qué tan delices somos</strong></h5>
+                <p><strong>Seleccione su estado civil</strong></p>
+                <input name="p01" type="radio" id="soltero" value="1" required/><label for="soltero">Soltero(a)</label>
+                <input name="p01" type="radio" id="casado" value="2" required/><label for="casado">Casado(a)</label>
+                <input name="p01" type="radio" id="divorciado" value="3" required/><label for="divorciado">Divorciado(a)</label>
+                <input name="p01" type="radio" id="viudo" value="4" required/><label for="viudo">Viudo(a)</label>
+                  <p>Valora cada afirmación</p>
                    <table class="highlight responsive-table">
                       <thead>
                         <tr>
-                            <th data-field="afirmacion">Afirmacion</th>
+                            <th data-field="afirmacion">Afirmación</th>
                             <th data-field="nunca">Nunca</th>
                             <th data-field="aveces">A Veces</th>
                             <th data-field="siempre">Siempre</th>
@@ -158,10 +164,348 @@
 
                       </tbody>
                     </table>
-                    
+                    <div class="divider"></div>
+                    <h5 class="pink-text"><strong>Como vivimos en la familia y cómo usamos el tiempo</strong></h5>
+                   <table class="highlight responsive-table">
+                      <thead>
+                        <tr>
+                            <th data-field="tarea">Tarea</th>
+                            <th data-field="esposito">Esposo</th>
+                            <th data-field="esposita">Esposita</th>
+                            <th data-field="hijos">Hijos</th>
+                            <th data-field="hijas">Hijas</th>
+                            <th data-field="pequeños">Pequeños</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>1-Preparar los alimentos</td>
+                          <td><input name="p21" type="radio" id="test61" value="1" required/><label for="test61"></label></td>
+                          <td><input name="p21" type="radio" id="test62" value="2" required/><label for="test62"></label></td>
+                          <td><input name="p21" type="radio" id="test63" value="3" required/><label for="test63"></label></td>
+                          <td><input name="p21" type="radio" id="test64" value="4" required/><label for="test64"></label></td>
+                          <td><input name="p21" type="radio" id="test65" value="5" required/><label for="test65"></label></td>
+                        </tr>
+                        <tr>
+                          <td>2-Lavar los trastes</td>
+                          <td><input name="p22" type="radio" id="test66" value="1" required/><label for="test66"></label></td>
+                          <td><input name="p22" type="radio" id="test67" value="2" required/><label for="test67"></label></td>
+                          <td><input name="p22" type="radio" id="test68" value="3" required/><label for="test68"></label></td>
+                          <td><input name="p22" type="radio" id="test69" value="4" required/><label for="test69"></label></td>
+                          <td><input name="p22" type="radio" id="test70" value="5" required/><label for="test70"></label></td>
+                        </tr>
+                        <tr>
+                          <td>3-Limpiar la casa y el patio</td>
+                          <td><input name="p23" type="radio" id="test71" value="1" required/><label for="test71"></label></td>
+                          <td><input name="p23" type="radio" id="test72" value="2" required/><label for="test72"></label></td>
+                          <td><input name="p23" type="radio" id="test73" value="3" required/><label for="test73"></label></td>
+                          <td><input name="p23" type="radio" id="test74" value="4" required/><label for="test74"></label></td>
+                          <td><input name="p23" type="radio" id="test75" value="5" required/><label for="test75"></label></td>
+                        </tr>
+                        <tr>
+                          <td>4-Comprar el mandado</td>
+                          <td><input name="p24" type="radio" id="test76" value="1" required/><label for="test76"></label></td>
+                          <td><input name="p24" type="radio" id="test77" value="2" required/><label for="test77"></label></td>
+                          <td><input name="p24" type="radio" id="test78" value="3" required/><label for="test78"></label></td>
+                          <td><input name="p24" type="radio" id="test79" value="4" required/><label for="test79"></label></td>
+                          <td><input name="p24" type="radio" id="test80" value="5" required/><label for="test80"></label></td>
+                        </tr>
+                        <tr>
+                          <td>5-Lavar la ropa</td>
+                          <td><input name="p25" type="radio" id="test81" value="1" required/><label for="test81"></label></td>
+                          <td><input name="p25" type="radio" id="test82" value="2" required/><label for="test82"></label></td>
+                          <td><input name="p25" type="radio" id="test83" value="3" required/><label for="test83"></label></td>
+                          <td><input name="p25" type="radio" id="test84" value="4" required/><label for="test84"></label></td>
+                          <td><input name="p25" type="radio" id="test85" value="5" required/><label for="test85"></label></td>
+                        </tr>
+                        <tr>
+                          <td>6-Planchar</td>
+                          <td><input name="p26" type="radio" id="test86" value="1" required/><label for="test86"></label></td>
+                          <td><input name="p26" type="radio" id="test87" value="2" required/><label for="test87"></label></td>
+                          <td><input name="p26" type="radio" id="test88" value="3" required/><label for="test88"></label></td>
+                          <td><input name="p26" type="radio" id="test89" value="4" required/><label for="test89"></label></td>
+                          <td><input name="p26" type="radio" id="test90" value="5" required/><label for="test90"></label></td>
+                        </tr>
+                        <tr>
+                          <td>7-Regar las plantas</td>
+                          <td><input name="p27" type="radio" id="test91" value="1" required/><label for="test91"></label></td>
+                          <td><input name="p27" type="radio" id="test92" value="2" required/><label for="test92"></label></td>
+                          <td><input name="p27" type="radio" id="test93" value="3" required/><label for="test93"></label></td>
+                          <td><input name="p27" type="radio" id="test94" value="4" required/><label for="test94"></label></td>
+                          <td><input name="p27" type="radio" id="test95" value="5" required/><label for="test95"></label></td>
+                        </tr>
+                        <tr>
+                          <td>8-Criar a los hijos</td>
+                          <td><input name="p28" type="radio" id="test96" value="1" required/><label for="test96"></label></td>
+                          <td><input name="p28" type="radio" id="test97" value="2" required/><label for="test97"></label></td>
+                          <td><input name="p28" type="radio" id="test98" value="3" required/><label for="test98"></label></td>
+                          <td><input name="p28" type="radio" id="test99" value="4" required/><label for="test99"></label></td>
+                          <td><input name="p28" type="radio" id="test100" value="5" required/><label for="test100"></label></td>
+                        </tr>
+                        <tr>
+                          <td>9-Qué alimentos comer</td>
+                          <td><input name="p29" type="radio" id="test101" value="1" required/><label for="test101"></label></td>
+                          <td><input name="p29" type="radio" id="test102" value="2" required/><label for="test102"></label></td>
+                          <td><input name="p29" type="radio" id="test103" value="3" required/><label for="test103"></label></td>
+                          <td><input name="p29" type="radio" id="test104" value="4" required/><label for="test104"></label></td>
+                          <td><input name="p29" type="radio" id="test105" value="5" required/><label for="test105"></label></td>
+                        </tr>
+                        <tr>
+                          <td>10-Qué cultivos sembrar</td>
+                          <td><input name="p30" type="radio" id="test106" value="1" required/><label for="test106"></label></td>
+                          <td><input name="p30" type="radio" id="test107" value="2" required/><label for="test107"></label></td>
+                          <td><input name="p30" type="radio" id="test108" value="3" required/><label for="test108"></label></td>
+                          <td><input name="p30" type="radio" id="test109" value="4" required/><label for="test109"></label></td>
+                          <td><input name="p30" type="radio" id="test110" value="5" required/><label for="test110"></label></td>
+                        </tr>
+                        <tr>
+                          <td>11-Cómo preparar la tierra</td>
+                          <td><input name="p31" type="radio" id="test111" value="1" required/><label for="test111"></label></td>
+                          <td><input name="p31" type="radio" id="test112" value="2" required/><label for="test112"></label></td>
+                          <td><input name="p31" type="radio" id="test113" value="3" required/><label for="test113"></label></td>
+                          <td><input name="p31" type="radio" id="test114" value="4" required/><label for="test114"></label></td>
+                          <td><input name="p31" type="radio" id="test115" value="5" required/><label for="test115"></label></td>
+                        </tr>
+                        <tr>
+                          <td>12-Sembrar</td>
+                          <td><input name="p32" type="radio" id="test116" value="1" required/><label for="test116"></label></td>
+                          <td><input name="p32" type="radio" id="test117" value="2" required/><label for="test117"></label></td>
+                          <td><input name="p32" type="radio" id="test118" value="3" required/><label for="test118"></label></td>
+                          <td><input name="p32" type="radio" id="test119" value="4" required/><label for="test119"></label></td>
+                          <td><input name="p32" type="radio" id="test120" value="5" required/><label for="test120"></label></td>
+                        </tr>
+                        <tr>
+                          <td>13-Regar los cultivos</td>
+                          <td><input name="p33" type="radio" id="test121" value="1" required/><label for="test121"></label></td>
+                          <td><input name="p33" type="radio" id="test122" value="2" required/><label for="test122"></label></td>
+                          <td><input name="p33" type="radio" id="test123" value="3" required/><label for="test123"></label></td>
+                          <td><input name="p33" type="radio" id="test124" value="4" required/><label for="test124"></label></td>
+                          <td><input name="p33" type="radio" id="test125" value="5" required/><label for="test125"></label></td>
+                        </tr>
+                        <tr>
+                          <td>14-Controlar las plagas</td>
+                          <td><input name="p34" type="radio" id="test126" value="1" required/><label for="test126"></label></td>
+                          <td><input name="p34" type="radio" id="test127" value="2" required/><label for="test127"></label></td>
+                          <td><input name="p34" type="radio" id="test128" value="3" required/><label for="test128"></label></td>
+                          <td><input name="p34" type="radio" id="test129" value="4" required/><label for="test129"></label></td>
+                          <td><input name="p34" type="radio" id="test130" value="5" required/><label for="test130"></label></td>
+                        </tr>
+                        <tr>
+                          <td>15-Cosechar</td>
+                          <td><input name="p35" type="radio" id="test131" value="1" required/><label for="test131"></label></td>
+                          <td><input name="p35" type="radio" id="test132" value="2" required/><label for="test132"></label></td>
+                          <td><input name="p35" type="radio" id="test133" value="3" required/><label for="test133"></label></td>
+                          <td><input name="p35" type="radio" id="test134" value="4" required/><label for="test134"></label></td>
+                          <td><input name="p35" type="radio" id="test135" value="5" required/><label for="test135"></label></td>
+                        </tr>
+                        <tr>
+                          <td>16-Vender los productos</td>
+                          <td><input name="p36" type="radio" id="test136" value="1" required/><label for="test136"></label></td>
+                          <td><input name="p36" type="radio" id="test137" value="2" required/><label for="test137"></label></td>
+                          <td><input name="p36" type="radio" id="test138" value="3" required/><label for="test138"></label></td>
+                          <td><input name="p36" type="radio" id="test139" value="4" required/><label for="test139"></label></td>
+                          <td><input name="p36" type="radio" id="test140" value="5" required/><label for="test140"></label></td>
+                        </tr>
+                        <tr>
+                          <td>17-Cuidar y alimentar los animales</td>
+                          <td><input name="p37" type="radio" id="test141" value="1" required/><label for="test141"></label></td>
+                          <td><input name="p37" type="radio" id="test142" value="2" required/><label for="test142"></label></td>
+                          <td><input name="p37" type="radio" id="test143" value="3" required/><label for="test143"></label></td>
+                          <td><input name="p37" type="radio" id="test144" value="4" required/><label for="test144"></label></td>
+                          <td><input name="p37" type="radio" id="test145" value="5" required/><label for="test145"></label></td>
+                        </tr>
+                        <tr>
+                          <td>18-Cómo gastar los ingresos</td>
+                          <td><input name="p38" type="radio" id="test146" value="1" required/><label for="test146"></label></td>
+                          <td><input name="p38" type="radio" id="test147" value="2" required/><label for="test147"></label></td>
+                          <td><input name="p38" type="radio" id="test148" value="3" required/><label for="test148"></label></td>
+                          <td><input name="p38" type="radio" id="test149" value="4" required/><label for="test149"></label></td>
+                          <td><input name="p38" type="radio" id="test150" value="5" required/><label for="test150"></label></td>
+                        </tr>
+                        <tr>
+                          <td>19-Otros</td>
+                          <td><input name="p39" type="radio" id="test151" value="1" required/><label for="test151"></label></td>
+                          <td><input name="p39" type="radio" id="test152" value="2" required/><label for="test152"></label></td>
+                          <td><input name="p39" type="radio" id="test153" value="3" required/><label for="test153"></label></td>
+                          <td><input name="p39" type="radio" id="test154" value="4" required/><label for="test154"></label></td>
+                          <td><input name="p39" type="radio" id="test155" value="5" required/><label for="test155"></label></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="divider"></div>
+                    <h5 class="pink-text">Cuestionario para obtener el puntaje de diversidad dietética en los hogares(PDD)</h5>
+                    <p><strong>Ahora quisiera preguntarle sobre los tipos de alimentos que usted o cualquiera de los miembros de su familia comieron durante el día
+                      y la noche de ayer.por favor, Excluya los alimentos consumidos fuera del hogar que no hayan sido preparados en su casa</strong></p>
+                    <div class="section">
+                      <p>A) ¿Comieron tortilla, pan (Bimbo,rustico,dulce,conchas,panque), fideo u otro alimento hecho de maíz, trigo, arroz, avena?</p>
+                        <input name="p40" type="radio" id="test156" value="1" required/><label for="test156">si</label>
+                        <input name="p40" type="radio" id="test157" value="0" required/><label for="test157">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>B) ¿Comieron papas, camote, u otro alimento proveniente de raíces o tubérculos?</p>
+                        <input name="p41" type="radio" id="test158" value="1" required/><label for="test158">si</label>
+                        <input name="p41" type="radio" id="test159" value="0" required/><label for="test159">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>C) ¿Verduras?</p>
+                        <input name="p42" type="radio" id="test160" value="1" required/><label for="test160">si</label>
+                        <input name="p42" type="radio" id="test161" value="0" required/><label for="test161">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>D) ¿Frutas?</p>
+                        <input name="p43" type="radio" id="test162" value="1" required/><label for="test162">si</label>
+                        <input name="p43" type="radio" id="test163" value="0" required/><label for="test163">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>E) ¿Carne de vaca, cerdo, cordero, cabra, conejo, pollo, pato u otras aves, higado, riñon, corazón, u otras víceras?</p>
+                        <input name="p44" type="radio" id="test164" value="1" required/><label for="test164">si</label>
+                        <input name="p44" type="radio" id="test165" value="0" required/><label for="test165">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>F) ¿Huevos?</p>
+                        <input name="p45" type="radio" id="test166" value="1" required/><label for="test166">si</label>
+                        <input name="p45" type="radio" id="test167" value="0" required/><label for="test167">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>G) ¿Pescado, sardinas, o mriscos frescos o secos?</p>
+                        <input name="p46" type="radio" id="test168" value="1" required/><label for="test168">si</label>
+                        <input name="p46" type="radio" id="test169" value="0" required/><label for="test169">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>H) ¿Alimenos a base de frijoles, lentejas, habas, garbanzos, soya, cacahuates, frutos secos?</p>
+                        <input name="p47" type="radio" id="test170" value="1" required/><label for="test170">si</label>
+                        <input name="p47" type="radio" id="test171" value="0" required/><label for="test171">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>I) ¿Queso, yogurt leche u otros productos lácteos?</p>
+                        <input name="p48" type="radio" id="test172" value="1" required/><label for="test172">si</label>
+                        <input name="p48" type="radio" id="test173" value="0" required/><label for="test173">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>J) ¿Alimentos a base de aceite, grasa o mantequilla?</p>
+                        <input name="p49" type="radio" id="test174" value="1" required/><label for="test174">si</label>
+                        <input name="p49" type="radio" id="test175" value="0" required/><label for="test175">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>K) ¿Azúcar o miel?</p>
+                        <input name="p50" type="radio" id="test176" value="1" required/><label for="test176">si</label>
+                        <input name="p50" type="radio" id="test177" value="0" required/><label for="test177">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>L) ¿Otros alimentos como condimentos, café, té?</p>
+                        <input name="p51" type="radio" id="test178" value="1" required/><label for="test178">si</label>
+                        <input name="p51" type="radio" id="test179" value="0" required/><label for="test179">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>M) ¿El día de ayer hubo alguna celebración o evento especial (de su familia o la comunidad) en el que usted o algún
+                        miembro del hogar haya comido alimentos fuera de lo normal?</p>
+                        <input name="p52" type="radio" id="test180" value="1" required/><label for="test180">si</label>
+                        <input name="p52" type="radio" id="test181" value="0" required/><label for="test181">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <h5 class="pink-text">Sección IV. Acceso a la alimentación</h5>
+                    <p class="pink-text"><strong>El siguiente tema es de mucha relevancia y se refiere a la alimentación que hay en su hogar</strong></p>
+                    <div class="section">
+                      <p>1-En los últimos tres meses, por falta de dinero o recursos, alguna vez ¿Usted o algún adulto en su hogar tuvo una alimentación
+                        basada en muy poca variedad de alimentos?</p>
+                        <input name="p53" type="radio" id="test182" value="1" required/><label for="test182">si</label>
+                        <input name="p53" type="radio" id="test183" value="2" required/><label for="test183">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>2-En los últimos tres meses, por falta de dinero o recursos, alguna vez ¿Usted o algún adulto en su hogar
+                        dejó de desayunar, comer o cenar?</p>
+                        <input name="p54" type="radio" id="test184" value="1" required/><label for="test184">si</label>
+                        <input name="p54" type="radio" id="test185" value="2" required/><label for="test185">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>3-En los últimos tres meses, por falta de dinero o recursos, alguna vez ¿Usted o algún adulto en su hogar
+                        comió menos de lo que usted piensa debía comer?</p>
+                        <input name="p55" type="radio" id="test186" value="1" required/><label for="test186">si</label>
+                        <input name="p55" type="radio" id="test187" value="2" required/><label for="test187">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>4-En los últimos tres meses, por falta de dinero o recursos, alguna vez ¿Se quedaron sin comida?</p>
+                        <input name="p56" type="radio" id="test188" value="1" required/><label for="test188">si</label>
+                        <input name="p56" type="radio" id="test189" value="2" required/><label for="test189">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>5-En los últimos tres meses, por falta de dinero o recursos, alguna vez ¿Usted o algún adulto de este hogar sintió
+                        hambre pero no comió?</p>
+                        <input name="p57" type="radio" id="test190" value="1" required/><label for="test190">si</label>
+                        <input name="p57" type="radio" id="test191" value="2" required/><label for="test191">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>6-En los últimos tres meses, por falta de dinero o recursos, alguna vez ¿Usted o algún adulto en su hogar sólo
+                        comió una vez al día o dejó de comer todo un día?</p>
+                        <input name="p58" type="radio" id="test192" value="1" required/><label for="test192">si</label>
+                        <input name="p58" type="radio" id="test193" value="2" required/><label for="test193">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>7-En los últimos tres meses, por falta de dinero o recursos, alguna vez 
+                        ¿Algún menor de 18 años en su hogar tuvo una alimentación basada en muy poca variedad de alimentos?</p>
+                        <input name="p59" type="radio" id="test194" value="1" required/><label for="test194">si</label>
+                        <input name="p59" type="radio" id="test195" value="2" required/><label for="test195">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>8-En los últimos tres meses, por falta de dinero o recursos, alguna vez 
+                        ¿Algún menor de 18 años en su hogar comió menos de lo que debía?</p>
+                        <input name="p60" type="radio" id="test196" value="1" required/><label for="test196">si</label>
+                        <input name="p60" type="radio" id="test197" value="2" required/><label for="test197">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>9-En los últimos tres meses, por falta de dinero o recursos, alguna vez 
+                        ¿Tuvieron que disminuir la cantidad servida en las comidas a algún menor de 18 años del hogar?</p>
+                        <input name="p61" type="radio" id="test198" value="1" required/><label for="test198">si</label>
+                        <input name="p61" type="radio" id="test199" value="2" required/><label for="test199">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>10-En los últimos tres meses, por falta de dinero o recursos, alguna vez 
+                        ¿Algún menor de 18 años sintió hambre pero no comió?</p>
+                        <input name="p62" type="radio" id="test200" value="1" required/><label for="test200">si</label>
+                        <input name="p62" type="radio" id="test201" value="2" required/><label for="test201">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>11-En los últimos tres meses, por falta de dinero o recursos, alguna vez 
+                        ¿Algún menor de 18 años se acostó con hambre?</p>
+                        <input name="p63" type="radio" id="test202" value="1" required/><label for="test202">si</label>
+                        <input name="p63" type="radio" id="test203" value="2" required/><label for="test203">no</label>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                      <p>12-En los últimos tres meses, por falta de dinero o recursos, alguna vez 
+                        ¿Algún menor de 18 años comió una vez al día o dejó de comer todo un día?</p>
+                        <input name="p64" type="radio" id="test204" value="1" required/><label for="test204">si</label>
+                        <input name="p64" type="radio" id="test205" value="2" required/><label for="test205">no</label>
+                    </div>
+
+
+
 
                     <div class="row center">
-                  <button class="btn waves-effect purple lighten-1 waves-light hoverable" type="submit">enviar
+                    <button class="btn waves-effect purple lighten-1 waves-light hoverable" type="submit">enviar
                    <i class="material-icons right">send</i>
                   </button>
                   </div>

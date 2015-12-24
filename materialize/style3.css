@@ -1,0 +1,27 @@
+body{
+    background: url(../img/tomando-cerveza.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+header > h1 {
+    /*color: #3F1C00;*/
+    color: #000000;
+    font-family: AR BERKLEY;
+    font-size: 7.5em;
+    text-align: center;
+    margin-top: 1.2em;
+    /*text-shadow: 1px 1px 2px black, 0 0 25px #F4FF6C, 0 0 5px black;    #747373*/
+    text-shadow: 1px 1px 2px black, 0 0 25px #D2CDCD, 0 0 5px black;
+}
+
+hr{
+    background-color: #2B2727;
+    display: block;
+    width: 55%;
+    top: 50px;
+    padding: 1px;
+}
